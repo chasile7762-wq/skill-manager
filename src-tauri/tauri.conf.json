@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.tauri.app/config/1",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run preview",
+    "devPath": "http://127.0.0.1:4173",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "Codex Skill 管理器",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "Codex Skill 管理器",
+        "width": 1500,
+        "height": 960,
+        "resizable": true
+      }
+    ]
+  }
+}
